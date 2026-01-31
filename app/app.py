@@ -80,7 +80,7 @@ st.markdown(
         border-radius: 20px;
         font-weight: bold;
         font-size: 1.2em;
-    }
+    }    
     
     /* Footer */
     .footer {
@@ -89,6 +89,7 @@ st.markdown(
         padding: 20px;
         font-size: 0.9em;
     }
+
 </style>
 """,
     unsafe_allow_html=True,
@@ -101,7 +102,7 @@ st.markdown(
 FEATURE_CONFIG = {
     "edad": {
         "label": "🎂 Edad",
-        "description": "Edad (años)",
+        "description": "",
         "min": 18,
         "max": 99,
         "default": 18,
