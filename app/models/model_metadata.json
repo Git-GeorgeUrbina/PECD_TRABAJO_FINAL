@@ -1,0 +1,47 @@
+{
+  "model_type": "Logistic Regression",
+  "model_file": "model_joblib.joblib",
+  "feature_names": [
+    "edad",
+    "sexo",
+    "grupo_etnico",
+    "nivel_educ",
+    "nivel_ingr",
+    "estado_laboral",
+    "consumo_tabaco",
+    "consumo_alcohol",
+    "activ_fisica",
+    "calidad_dieta",
+    "horas_sueño",
+    "horas_pantalla",
+    "antec_familiar",
+    "hist_hipert",
+    "hist_cardiov",
+    "IMC",
+    "IOA",
+    "presion_sistol",
+    "presion_diast",
+    "frec_cardio",
+    "colest_total",
+    "colest_HDL",
+    "colest_LDL",
+    "trigliceridos",
+    "glucosa_ayunas",
+    "glucosa_post",
+    "insulina",
+    "hemoblina"
+  ],
+  "n_features": 28,
+  "target_col": "diagnostico_diabetes",
+  "metrics": {
+    "auc_test": 0.9338,
+    "n_train_samples": 80000,
+    "n_test_samples": 20000,
+    "model_file_kb": 4.92
+  },
+  "training_info": {
+    "date": "2026-01-31T08:06:20.423417",
+    "python_version": "3.10.19",
+    "sklearn_version": "1.7.2"
+  }
+}
